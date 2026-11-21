@@ -34,7 +34,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        variant: [lean, router, dpi]
+        variant: [router]
     steps:
       - name: Check out this repo
         uses: actions/checkout@v4
